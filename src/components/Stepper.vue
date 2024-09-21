@@ -83,6 +83,7 @@ const downloadPdf = () => {
                 class="bg-transparent border-0 inline-flex flex-col px-2 sm:px-5"
                 @click="activateCallback"
                 v-bind="a11yAttrs.header"
+                :disabled="activeStep < value"
               >
                 <span
                   :class="[
