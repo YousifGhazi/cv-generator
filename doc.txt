@@ -1,0 +1,24 @@
+cv generator documentation: 
+ -- user-side: 
+    the app provides a user interface for generating a cv through a series of steps to 
+    collect the user information and combind them to generate a cv in the last step.
+-- developer-side:
+    the app is developd using Vue 3 and primevue for the user interface. 
+    the app is divided into components for each step and a main component to manage the steps.
+    the app uses sessionStorage to store the user information (because it consiste during refresh).
+    the app uses a html2pdf package to generate the cv and download it as a pdf file. 
+    the app is responsive and can be used on mobile devices.
+    the app uses veeValidate and yup for form validation and management.
+
+-- Future goals
+    - add more templates for the cv
+    - add more customization options for the cv
+    - add more steps for the cv generation (to included more information)
+    - add animations and transitions to the app
+
+
+-- How to setp up the app
+    - clone the repo
+    - run pnpm install
+    - open the app in the browser (http://localhost:5173)
+    - start generating your cv
